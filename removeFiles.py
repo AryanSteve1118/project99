@@ -49,7 +49,7 @@ def remove_file(path):
     else:
         print(f'unable to delete path')
 def get_file_or_folder_age(path):
-    ctime=os.stat(path).st_ctime
+    ctime=os.stat(path).st_ctime 
     return ctime
 
 
